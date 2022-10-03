@@ -2,7 +2,7 @@ var SHAPES = {
     i: {
 	spin: 'corner',
 	startX: 5,
-	startY: 0,
+	startY: -1,
 	pos: [
 	    { x: -2, y: -1 },
 	    { x: -1, y: -1},
