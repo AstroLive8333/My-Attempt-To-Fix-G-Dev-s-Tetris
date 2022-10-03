@@ -1,6 +1,6 @@
 
 FIELD_OFFSET_X = 180;
-FIELD_OFFSET_Y = 12;
+FIELD_OFFSET_Y = 13;
 
 function TetrisControl() {
     var tetris = new Tetris(this);
@@ -85,7 +85,7 @@ function Tetris(controller) {
 	}
 	
 	if (!paused && !gameOver) {
-	    // see if the game should be pased
+	    // see if the game should be paused
 	    if (escapePressed && (!lastEscapeState)) {
 		// go into pause mode
 		startPauseTime = realTime;
