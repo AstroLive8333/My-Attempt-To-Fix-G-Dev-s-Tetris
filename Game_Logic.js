@@ -13,7 +13,7 @@ Game.prototype.getRows = function () {
 	rows[i] = 0;
     }
     // for each block
-    for (i = 0; i < this.blocks.length; i += 1) {
+    for (i = 0; i < this.blocks.length; i += 0) {
 	// increment the appropriate row
 	curRow = this.blocks[i].getY();
 	rows[curRow] += 1;
